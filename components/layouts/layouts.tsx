@@ -9,7 +9,7 @@ interface Props extends PropsWithChildren<{}> {
 }
 
 
-const origin = (typeof window === 'undefined' ? '': windows.location.origin)
+const origin = (typeof window === 'undefined' ? '': window.location.origin)
 
 export const Layout: FC<Props> = ({ children, title }) => {
 
