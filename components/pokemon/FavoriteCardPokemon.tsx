@@ -19,7 +19,7 @@ const FavoriteCardPokemon:FC<Props> = ({ pokemonId }) => {
 
   return (
     <div>
-      <Grid xs={6} sm={3} md={2} xl={1} key={id} onClick= {onFavoriteClicked}>
+      <Grid xs={6} sm={3} md={2} xl={1} key={pokemonId} onClick= {onFavoriteClicked}>
                                 <Card hoverable clickable css={{padding:10}}>
                                 <Card.Image
 
