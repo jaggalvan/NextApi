@@ -1,5 +1,5 @@
 import { Card, Grid } from '@nextui-org/react'
-import React from 'react'
+import React, { FC } from 'react'
 import FavoriteCardPokemon from './FavoriteCardPokemon'
 
 interface Props{
